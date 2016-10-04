@@ -862,7 +862,6 @@ jQuery(document).ready(function($) {
 
         $defcontainer.removeClass('in');
         $parent.addClass('spin');
-        $('.island-element-4').addClass('fade');
         setTimeout(function() {
             $parent.removeClass('spin');
         }, 4000);
